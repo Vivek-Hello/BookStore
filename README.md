@@ -57,39 +57,38 @@ Below are common commands used for managing the BookStore project:
 
 
 ## File Structure
-plaintext
-Copy code
-BookStore/
-├── backend/                 # Node.js Backend
-│   ├── controller/          # Controller functions (bookController.js)
-│   ├── DB/                  # Database connection (db.js)
-│   ├── models/              # Mongoose models (Book.js)
-│   ├── routes/              # API routes (bookRoutes.js)
-│   ├── .env                 # Environment variables
-│   ├── .gitignore
-│   ├── index.js             # Main server file
-│   ├── package.json
-│   └── package-lock.json
-├── frontend/                # React Frontend
-│   ├── public/              # Public assets
-│   ├── src/
-│   │   ├── assets/          # Static assets
-│   │   ├── components/      # Shared components (Spinning, BackButton)
-│   │   ├── home/            # Home, BookTable, BookCard components
-│   │   ├── pages/           # ShowBook, EditBook, DeleteBook
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── .gitignore
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── postcss.config.js
-│   ├── tailwind.config.js
-│   └── vite.config.js
-├── .gitignore
-└── README.md
+
+-BookStore/
+=├── backend/              
+-│   ├── controller/          
+-│   ├── DB/              
+-│   ├── models/              
+-│   ├── routes/             
+-│   ├── .env                
+-│   ├── .gitignore
+-│   ├── index.js           
+-│   ├── package.json
+-│   └── package-lock.json
+-├── frontend/                
+-│   ├── public/             
+-│   ├── src/
+-│   │   ├── assets/        
+-│   │   ├── components/      
+-│   │   ├── home/           
+-│   │   ├── pages/           
+-│   │   ├── App.jsx
+-│   │   ├── index.css
+-│   │   └── main.jsx
+-│   ├── .gitignore
+-│   ├── eslint.config.js
+-│   ├── index.html
+-│   ├── package.json
+-│   ├── package-lock.json
+-│   ├── postcss.config.js
+-│   ├── tailwind.config.js
+-│   └── vite.config.js
+-├── .gitignore
+-└── README.md
 
 ## API Endpoints
 - GET /book/getallbooks: Retrieve all books.
