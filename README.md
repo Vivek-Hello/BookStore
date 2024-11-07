@@ -59,7 +59,7 @@ Below are common commands used for managing the BookStore project:
 ## File Structure
 
 -BookStore/
-=├── backend/              
+-├── backend/              
 -│   ├── controller/          
 -│   ├── DB/              
 -│   ├── models/              
